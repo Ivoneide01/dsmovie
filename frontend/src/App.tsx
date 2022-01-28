@@ -1,8 +1,21 @@
 import React from 'react';
+import {ReactComponent as GithubIcon} from'./assets/img/gato.svg';
 
 function App() {
   return (
-   <h1>Principal</h1>
+    <header>
+    <nav>
+        <div>
+            <h1>DSMovie</h1>
+            <a href="https://github.com/Ivoneide01">
+           <div> 
+            <GithubIcon />
+            <p>/DevNid</p>
+            </div> 
+            </a>
+        </div>
+    </nav>
+</header>
   );
 }
 
